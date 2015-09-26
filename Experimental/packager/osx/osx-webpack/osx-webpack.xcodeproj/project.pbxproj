@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77A7EA7A1BB64F690068DCD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A7EA791BB64F690068DCD0 /* AppDelegate.m */; };
+		77A7EA7D1BB64F690068DCD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A7EA7C1BB64F690068DCD0 /* main.m */; };
+		77A7EA7F1BB64F690068DCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A7EA7E1BB64F690068DCD0 /* Assets.xcassets */; };
+		77A7EA821BB64F690068DCD0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A7EA801BB64F690068DCD0 /* MainMenu.xib */; };
+		77A7EA8D1BB64F690068DCD0 /* osx_webpackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A7EA8C1BB64F690068DCD0 /* osx_webpackTests.m */; };
+		77A7EA981BB64F6A0068DCD0 /* osx_webpackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A7EA971BB64F6A0068DCD0 /* osx_webpackUITests.m */; };
+		77A7EAB41BB655F40068DCD0 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 77A7EAB31BB655F40068DCD0 /* test.js */; settings = {ASSET_TAGS = (); }; };
+		77A7EAB81BB65CAD0068DCD0 /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 77A7EAB71BB65CAD0068DCD0 /* bundle.js */; settings = {ASSET_TAGS = (); }; };
+		77A7EABB1BB675550068DCD0 /* SampleObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A7EABA1BB675550068DCD0 /* SampleObjc.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77A7EA891BB64F690068DCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A7EA6D1BB64F690068DCD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A7EA741BB64F690068DCD0;
+			remoteInfo = "osx-webpack";
+		};
+		77A7EA941BB64F6A0068DCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A7EA6D1BB64F690068DCD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A7EA741BB64F690068DCD0;
+			remoteInfo = "osx-webpack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77A7EA751BB64F690068DCD0 /* osx-webpack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "osx-webpack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A7EA781BB64F690068DCD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77A7EA791BB64F690068DCD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77A7EA7C1BB64F690068DCD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77A7EA7E1BB64F690068DCD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77A7EA811BB64F690068DCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		77A7EA831BB64F690068DCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A7EA881BB64F690068DCD0 /* osx-webpackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "osx-webpackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A7EA8C1BB64F690068DCD0 /* osx_webpackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osx_webpackTests.m; sourceTree = "<group>"; };
+		77A7EA8E1BB64F6A0068DCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A7EA931BB64F6A0068DCD0 /* osx-webpackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "osx-webpackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A7EA971BB64F6A0068DCD0 /* osx_webpackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osx_webpackUITests.m; sourceTree = "<group>"; };
+		77A7EA991BB64F6A0068DCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A7EAB31BB655F40068DCD0 /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		77A7EAB71BB65CAD0068DCD0 /* bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bundle.js; sourceTree = "<group>"; };
+		77A7EAB91BB675550068DCD0 /* SampleObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleObjc.h; sourceTree = "<group>"; };
+		77A7EABA1BB675550068DCD0 /* SampleObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleObjc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A7EA721BB64F690068DCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7EA851BB64F690068DCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7EA901BB64F6A0068DCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77A7EA6C1BB64F690068DCD0 = {
+			isa = PBXGroup;
+			children = (
+				77A7EA771BB64F690068DCD0 /* osx-webpack */,
+				77A7EA8B1BB64F690068DCD0 /* osx-webpackTests */,
+				77A7EA961BB64F6A0068DCD0 /* osx-webpackUITests */,
+				77A7EA761BB64F690068DCD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77A7EA761BB64F690068DCD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77A7EA751BB64F690068DCD0 /* osx-webpack.app */,
+				77A7EA881BB64F690068DCD0 /* osx-webpackTests.xctest */,
+				77A7EA931BB64F6A0068DCD0 /* osx-webpackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77A7EA771BB64F690068DCD0 /* osx-webpack */ = {
+			isa = PBXGroup;
+			children = (
+				77A7EAB71BB65CAD0068DCD0 /* bundle.js */,
+				77A7EAB31BB655F40068DCD0 /* test.js */,
+				77A7EA781BB64F690068DCD0 /* AppDelegate.h */,
+				77A7EA791BB64F690068DCD0 /* AppDelegate.m */,
+				77A7EA7E1BB64F690068DCD0 /* Assets.xcassets */,
+				77A7EA801BB64F690068DCD0 /* MainMenu.xib */,
+				77A7EA831BB64F690068DCD0 /* Info.plist */,
+				77A7EA7B1BB64F690068DCD0 /* Supporting Files */,
+				77A7EAB91BB675550068DCD0 /* SampleObjc.h */,
+				77A7EABA1BB675550068DCD0 /* SampleObjc.m */,
+			);
+			path = "osx-webpack";
+			sourceTree = "<group>";
+		};
+		77A7EA7B1BB64F690068DCD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77A7EA7C1BB64F690068DCD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77A7EA8B1BB64F690068DCD0 /* osx-webpackTests */ = {
+			isa = PBXGroup;
+			children = (
+				77A7EA8C1BB64F690068DCD0 /* osx_webpackTests.m */,
+				77A7EA8E1BB64F6A0068DCD0 /* Info.plist */,
+			);
+			path = "osx-webpackTests";
+			sourceTree = "<group>";
+		};
+		77A7EA961BB64F6A0068DCD0 /* osx-webpackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77A7EA971BB64F6A0068DCD0 /* osx_webpackUITests.m */,
+				77A7EA991BB64F6A0068DCD0 /* Info.plist */,
+			);
+			path = "osx-webpackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77A7EA741BB64F690068DCD0 /* osx-webpack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A7EA9C1BB64F6A0068DCD0 /* Build configuration list for PBXNativeTarget "osx-webpack" */;
+			buildPhases = (
+				77A7EA711BB64F690068DCD0 /* Sources */,
+				77A7EA721BB64F690068DCD0 /* Frameworks */,
+				77A7EA731BB64F690068DCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "osx-webpack";
+			productName = "osx-webpack";
+			productReference = 77A7EA751BB64F690068DCD0 /* osx-webpack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77A7EA871BB64F690068DCD0 /* osx-webpackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A7EA9F1BB64F6A0068DCD0 /* Build configuration list for PBXNativeTarget "osx-webpackTests" */;
+			buildPhases = (
+				77A7EA841BB64F690068DCD0 /* Sources */,
+				77A7EA851BB64F690068DCD0 /* Frameworks */,
+				77A7EA861BB64F690068DCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A7EA8A1BB64F690068DCD0 /* PBXTargetDependency */,
+			);
+			name = "osx-webpackTests";
+			productName = "osx-webpackTests";
+			productReference = 77A7EA881BB64F690068DCD0 /* osx-webpackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77A7EA921BB64F6A0068DCD0 /* osx-webpackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A7EAA21BB64F6A0068DCD0 /* Build configuration list for PBXNativeTarget "osx-webpackUITests" */;
+			buildPhases = (
+				77A7EA8F1BB64F6A0068DCD0 /* Sources */,
+				77A7EA901BB64F6A0068DCD0 /* Frameworks */,
+				77A7EA911BB64F6A0068DCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A7EA951BB64F6A0068DCD0 /* PBXTargetDependency */,
+			);
+			name = "osx-webpackUITests";
+			productName = "osx-webpackUITests";
+			productReference = 77A7EA931BB64F6A0068DCD0 /* osx-webpackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77A7EA6D1BB64F690068DCD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Hui Hui";
+				TargetAttributes = {
+					77A7EA741BB64F690068DCD0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					77A7EA871BB64F690068DCD0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 77A7EA741BB64F690068DCD0;
+					};
+					77A7EA921BB64F6A0068DCD0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 77A7EA741BB64F690068DCD0;
+					};
+				};
+			};
+			buildConfigurationList = 77A7EA701BB64F690068DCD0 /* Build configuration list for PBXProject "osx-webpack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77A7EA6C1BB64F690068DCD0;
+			productRefGroup = 77A7EA761BB64F690068DCD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77A7EA741BB64F690068DCD0 /* osx-webpack */,
+				77A7EA871BB64F690068DCD0 /* osx-webpackTests */,
+				77A7EA921BB64F6A0068DCD0 /* osx-webpackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77A7EA731BB64F690068DCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A7EA7F1BB64F690068DCD0 /* Assets.xcassets in Resources */,
+				77A7EA821BB64F690068DCD0 /* MainMenu.xib in Resources */,
+				77A7EAB81BB65CAD0068DCD0 /* bundle.js in Resources */,
+				77A7EAB41BB655F40068DCD0 /* test.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7EA861BB64F690068DCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7EA911BB64F6A0068DCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77A7EA711BB64F690068DCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A7EA7D1BB64F690068DCD0 /* main.m in Sources */,
+				77A7EA7A1BB64F690068DCD0 /* AppDelegate.m in Sources */,
+				77A7EABB1BB675550068DCD0 /* SampleObjc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7EA841BB64F690068DCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A7EA8D1BB64F690068DCD0 /* osx_webpackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7EA8F1BB64F6A0068DCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A7EA981BB64F6A0068DCD0 /* osx_webpackUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77A7EA8A1BB64F690068DCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A7EA741BB64F690068DCD0 /* osx-webpack */;
+			targetProxy = 77A7EA891BB64F690068DCD0 /* PBXContainerItemProxy */;
+		};
+		77A7EA951BB64F6A0068DCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A7EA741BB64F690068DCD0 /* osx-webpack */;
+			targetProxy = 77A7EA941BB64F6A0068DCD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77A7EA801BB64F690068DCD0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A7EA811BB64F690068DCD0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77A7EA9A1BB64F6A0068DCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		77A7EA9B1BB64F6A0068DCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77A7EA9D1BB64F6A0068DCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-webpack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hui-hui.osx-webpack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77A7EA9E1BB64F6A0068DCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-webpack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hui-hui.osx-webpack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77A7EAA01BB64F6A0068DCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-webpackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hui-hui.osx-webpackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osx-webpack.app/Contents/MacOS/osx-webpack";
+			};
+			name = Debug;
+		};
+		77A7EAA11BB64F6A0068DCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-webpackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hui-hui.osx-webpackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osx-webpack.app/Contents/MacOS/osx-webpack";
+			};
+			name = Release;
+		};
+		77A7EAA31BB64F6A0068DCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-webpackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hui-hui.osx-webpackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "osx-webpack";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		77A7EAA41BB64F6A0068DCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-webpackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hui-hui.osx-webpackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "osx-webpack";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77A7EA701BB64F690068DCD0 /* Build configuration list for PBXProject "osx-webpack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A7EA9A1BB64F6A0068DCD0 /* Debug */,
+				77A7EA9B1BB64F6A0068DCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A7EA9C1BB64F6A0068DCD0 /* Build configuration list for PBXNativeTarget "osx-webpack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A7EA9D1BB64F6A0068DCD0 /* Debug */,
+				77A7EA9E1BB64F6A0068DCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77A7EA9F1BB64F6A0068DCD0 /* Build configuration list for PBXNativeTarget "osx-webpackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A7EAA01BB64F6A0068DCD0 /* Debug */,
+				77A7EAA11BB64F6A0068DCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77A7EAA21BB64F6A0068DCD0 /* Build configuration list for PBXNativeTarget "osx-webpackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A7EAA31BB64F6A0068DCD0 /* Debug */,
+				77A7EAA41BB64F6A0068DCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77A7EA6D1BB64F690068DCD0 /* Project object */;
+}
