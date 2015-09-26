@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ReactNativeMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>770A9F401BB53AFD00832929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>770A9F4F1BB53AFD00832929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>770A9F5A1BB53AFD00832929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>770A9F781BB540F400832929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>770A9F811BB540F400832929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
